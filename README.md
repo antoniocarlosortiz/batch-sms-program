@@ -1,4 +1,5 @@
 # SMS Automation in Python
+####*Updated: June 17, 2014*
 
 This was one of my most difficult projects to accomplish as the there seem to be a lack of documentation readily available for newbs about this.
 
