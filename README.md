@@ -18,3 +18,6 @@ Further research on GSM modem revealed that I could utilize its SMS capabilities
 
 The script is simple but I had to learn a thing or two from the Hayes Commands. These are basically the standard commands that the user sends to a modem to work. “AT+CMGF=1″ to turn the format to basic text, “AT+CMGS=” for the message body, and “AT+CMGL=” to read text messages. You also have to allow the modem to pause for a second for every command is it is not that fast on processing what it actually needed for it to do. Other info can be found on the comments inside the script.
 
+###Required Readings
+* To know the port path and commands needed to communicate to the server, read [this blog.](https://myraspberryandme.wordpress.com/2013/09/13/short-message-texting-sms-with-huawei-e220/)
+* Baud rate is usually 115200 but you can read get a find a more specific config for your port by read [this.](http://linux.die.net/man/8/setserial)
